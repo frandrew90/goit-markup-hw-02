@@ -1,0 +1,167 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --logo-color: #000000;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+
+  --primary-bg-color: #e5e5e5;
+  --header-bg-color: #ffffff;
+  --hero-bg-color: #2f303a;
+  --footer-bg-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
+}
+
+/* палитра текста */
+
+/* Основной цвет текста: #757575; */
+
+/* Вторичный цвет текста: #212121; */
+
+/* Акцент:#2196F3; */
+
+/* Белый #FFFFFF; */
+
+/* Футер адресс #FFFFFF; */
+
+/* Футер ссылки rgba(255, 255, 255, 0.6); */
+
+/* WEB #2196F3; studio #000000; #FFFFFF; */
+
+/* Герой #FFFFFF; */
+
+/* Палитра фона */
+
+/* Хэдер #FFFFFF; */
+
+/* Герой #2F303A; */
+
+/* Основной фон #E5E5E5; */
+
+/* Вторичный фон+фильтр #F5F4FA; */
+
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.page-header {
+  color: var(--title-text-color);
+  background-color: var(--white-color);
+}
+
+/* Логотип */
+.logo {
+  color: var(--logo-color);
+}
+
+span {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* site-nav+header-contacts */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.header-contacts .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.header-contacts .link:focus:focus,
+.header-contacts .link:hover:hover,
+.footer-contacts .link:focus,
+.footer-contacts .link:hover {
+  color: var(--accent-color);
+}
+
+/* Sections */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--hero-bg-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+}
+
+/* advantages */
+
+.advantages-list .title {
+  color: var(--title-text-color);
+}
+
+/* team */
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* exaples */
+
+.example-list .title {
+  color: var(--title-text-color);
+}
+
+/* Ссылки */
+.link {
+  text-decoration: none;
+}
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+/* Кнопки */
+.filter-btn {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.primary-btn {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.example-list .description {
+  color: var(--primary-text-color);
+}
+
+/* футер */
+
+.page-footer {
+  color: var(--white-color);
+  background-color: var(--footer-bg-color);
+}
+
+.footer-contacts .link {
+  color: var(--footer-link-color);
+}
+
+.logo-ft {
+  color: var(--white-color);
+}
